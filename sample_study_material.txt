@@ -1,0 +1,70 @@
+"""
+Simple text-based sample study material
+This can be copied and pasted directly into the application
+"""
+
+SAMPLE_STUDY_MATERIAL = """
+PROMPT ENGINEERING FOR AGENTS
+A Comprehensive Study Guide
+
+Introduction to Prompt Engineering
+
+Prompt engineering involves designing and refining inputs to language models to achieve desired outputs. In the context of agents, prompt engineering allows for better control over how an agent interacts with the environment and solves specific tasks. This is particularly useful in domains like robotics and conversational AI. By adjusting the structure and content of the prompts, users can enhance an agent's performance on specific tasks.
+
+Key Concepts in Prompt Engineering
+
+1. Prompt Structure: The way a prompt is structured significantly impacts the quality of the output. Well-structured prompts include clear instructions, context, and examples when necessary. A good prompt should be specific, unambiguous, and aligned with the desired outcome.
+
+2. Context Window: Language models have a limited context window, which is the amount of text they can process at once. Effective prompt engineering requires understanding this limitation and crafting prompts that fit within the context window while providing sufficient information.
+
+3. Few-Shot Learning: This technique involves providing the model with a few examples of the desired output format within the prompt. Few-shot learning helps the model understand the task better and generate more accurate responses without requiring extensive fine-tuning.
+
+Applications in Agent-Based Systems
+
+In agent-based systems, prompt engineering plays a crucial role in defining agent behavior and decision-making processes. Agents are autonomous entities that perceive their environment and take actions to achieve specific goals. The prompts given to these agents determine how they interpret information and respond to different situations.
+
+Conversational AI: In conversational AI systems, prompts help define the personality, tone, and knowledge base of the agent. By carefully crafting prompts, developers can create agents that provide helpful, accurate, and contextually appropriate responses to user queries.
+
+Robotics: In robotics applications, prompt engineering helps translate high-level human instructions into actionable commands for robots. This enables more intuitive human-robot interaction and allows non-expert users to control complex robotic systems effectively.
+
+Task Planning: Agents often need to break down complex tasks into manageable steps. Prompt engineering can guide this decomposition process, helping agents create effective action plans and adapt to changing circumstances.
+
+Best Practices for Prompt Engineering
+
+1. Be Specific: Vague prompts lead to unpredictable outputs. Always provide clear, specific instructions about what you want the model to do. Include details about format, style, and content expectations.
+
+2. Iterate and Refine: Prompt engineering is an iterative process. Start with a basic prompt and refine it based on the outputs you receive. Small changes in wording can significantly impact results.
+
+3. Use Constraints: When appropriate, include constraints in your prompts to guide the model's output. These might include length restrictions, format requirements, or content limitations.
+
+4. Provide Context: Give the model sufficient background information to understand the task. Context helps the model generate more relevant and accurate responses.
+
+5. Test Edge Cases: Always test your prompts with various inputs, including edge cases, to ensure robust performance across different scenarios.
+
+Challenges and Considerations
+
+Despite its effectiveness, prompt engineering faces several challenges. One major challenge is the brittleness of prompts—small changes in wording can lead to dramatically different outputs. This makes it difficult to create robust, reliable systems.
+
+Another challenge is the lack of interpretability. It's often unclear why a particular prompt works well or poorly, making systematic improvement difficult. Researchers are working on methods to better understand and predict prompt effectiveness.
+
+Token limits present another constraint. Complex tasks may require extensive context, but models have finite context windows. Engineers must balance providing sufficient information with staying within these limits.
+
+Finally, prompt engineering requires domain expertise. Creating effective prompts demands understanding both the technical capabilities of language models and the specific requirements of the application domain.
+
+Future Directions
+
+The field of prompt engineering continues to evolve rapidly. Emerging techniques include automatic prompt generation, where algorithms optimize prompts based on desired outcomes. Meta-learning approaches allow models to learn how to interpret prompts more effectively.
+
+Multi-modal prompting, which combines text with images, audio, or other data types, represents another frontier. This enables more sophisticated agent behaviors and richer human-AI interaction.
+
+As language models become more powerful and accessible, prompt engineering will likely become an essential skill for developers, researchers, and end-users alike. Understanding these principles will be crucial for building effective AI-powered applications and agent-based systems.
+"""
+
+if __name__ == "__main__":
+    print("="*70)
+    print("SAMPLE STUDY MATERIAL - PROMPT ENGINEERING FOR AGENTS")
+    print("="*70)
+    print(SAMPLE_STUDY_MATERIAL)
+    print("="*70)
+    print("\nYou can copy the text above and paste it into the Study Assistant app!")
+    print("Or save it to a file for testing.")

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Database (optional: 如果想保留云端数据库，注释掉这一行)
+# study_assistant.db
+
+# Backups
+*.db.backup
+*_backup_*.db
+
+# Session exports
+session_export_*.json
